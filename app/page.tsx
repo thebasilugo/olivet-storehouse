@@ -5,8 +5,8 @@ import { ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import FeaturedProducts from "@/components/featured-products";
-import ProductCategories from "@/components/product-categories";
-import NewsletterSignup from "@/components/newsletter-signup";
+// import ProductCategories from "@/components/product-categories";
+// import NewsletterSignup from "@/components/newsletter-signup";
 import NewArrivalsSlider from "@/components/new-arrivals-slider";
 
 export default function Home() {
