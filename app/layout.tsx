@@ -19,10 +19,10 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Olivet Storehouse - Church Merchandise",
+    default: "Olivet Storehouse - Christian Merchandise & Resources",
     template: "%s | Olivet Storehouse",
   },
-  description: "Shop for church merchandise including shirts, caps, posters, CDs, and more.",
+  description: "Shop for Christian merchandise, books, music, and resources at Olivet Storehouse.",
   keywords: "church merchandise, christian apparel, religious gifts, Olivet Storehouse, Ablaze youth program",
   authors: [{ name: "Basil Ugo", url: "https://github.com/thebasilugo" }],
   creator: "Basil Ugo",
@@ -40,8 +40,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://olivet-storehouse.vercel.app",
-    title: "Olivet Storehouse - Church Merchandise",
-    description: "Shop for church merchandise including shirts, caps, posters, CDs, and more.",
+    title: "Olivet Storehouse - Christian Merchandise & Resources",
+    description: "Shop for Christian merchandise, books, music, and resources at Olivet Storehouse.",
     siteName: "Olivet Storehouse",
     images: [
       {
@@ -54,41 +54,26 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Olivet Storehouse - Church Merchandise",
-    description: "Shop for church merchandise including shirts, caps, posters, CDs, and more.",
+    title: "Olivet Storehouse - Christian Merchandise & Resources",
+    description: "Shop for Christian merchandise, books, music, and resources at Olivet Storehouse.",
     creator: "@thebasilugo",
     images: ["/ablaze-dove.png"],
   },
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 5,
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
-  },
   icons: {
     icon: [
-      { url: "/favicon.ico" },
+      { url: "/favicon.ico", sizes: "any" },
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
       { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
     ],
-    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
-    other: [
-      {
-        rel: "mask-icon",
-        url: "/ablaze-dove.png",
-      },
-    ],
+    apple: { url: "/apple-touch-icon.png", sizes: "180x180" },
   },
     generator: 'v0.dev'
+}
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
 }
 
 export default function RootLayout({
