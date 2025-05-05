@@ -118,4 +118,3 @@ export function preloadResources(resources: string[]) {
     document.head.appendChild(link)
   })
 }
-

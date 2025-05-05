@@ -13,4 +13,3 @@ export default function LoadingFallback({ message = "Loading...", fullScreen = f
     </div>
   )
 }
-

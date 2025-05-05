@@ -107,4 +107,3 @@ export default function PerformanceMonitor() {
   // This component doesn't render anything visible
   return null
 }
-

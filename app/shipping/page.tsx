@@ -1,22 +1,13 @@
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
-import {
-	Table,
-	TableBody,
-	TableCell,
-	TableHead,
-	TableHeader,
-	TableRow,
-} from "@/components/ui/table";
+import Link from "next/link"
+import { Button } from "@/components/ui/button"
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 
 export default function ShippingPage() {
-	return (
-		<div className="container px-4 md:px-6 py-8 max-w-4xl mx-auto">
-			<div className="flex flex-col items-center text-center mb-12">
-				<h1 className="text-4xl font-bold tracking-tight mb-4">
-					Shipping & Returns
-				</h1>
-				{/* <p className="text-xl text-muted-foreground max-w-3xl">
+  return (
+    <div className="container px-4 md:px-6 py-8 max-w-4xl mx-auto">
+      <div className="flex flex-col items-center text-center mb-12">
+        <h1 className="text-4xl font-bold tracking-tight mb-4">Shipping & Returns</h1>
+        <p className="text-xl text-muted-foreground max-w-3xl">
           Information about our shipping methods, delivery times, and return policies.
         </p>
       </div>
@@ -147,9 +138,8 @@ export default function ShippingPage() {
               </Button>
             </Link>
           </div>
-        </div> */}
-				<p>this page is still in development</p>
-			</div>
-		</div>
-	);
+        </div>
+      </div>
+    </div>
+  )
 }

@@ -31,4 +31,3 @@ export default function OptimizedImage({ src, alt, fallbackSrc = "/placeholder.s
     </div>
   )
 }
-

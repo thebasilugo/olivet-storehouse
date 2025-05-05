@@ -16,7 +16,7 @@ const newArrivals = [
     id: 8,
     name: "Ablaze 2024 T-Shirt",
     price: 22.99,
-    image: "/placeholder.svg?text=ablaze_shirt_front_1&height=300&width=300",
+    image: "/images/products/tshirt-black.png",
     category: "Shirts",
     description: "Official t-shirt from the Ablaze 2024 youth program. Features the event theme and logo.",
     dateAdded: "2024-03-10",
@@ -26,7 +26,7 @@ const newArrivals = [
     id: 13,
     name: "Faith Over Fear Bracelet",
     price: 12.99,
-    image: "/placeholder.svg?text=bracelet_faith&height=300&width=300",
+    image: "/images/products/bracelet.png",
     category: "Accessories",
     description: "Handcrafted leather bracelet with 'Faith Over Fear' engraving. Adjustable size.",
     dateAdded: "2024-03-08",
@@ -36,7 +36,7 @@ const newArrivals = [
     id: 14,
     name: "Olivet Kids T-Shirt",
     price: 16.99,
-    image: "/placeholder.svg?text=kids_shirt&height=300&width=300",
+    image: "/images/products/tshirt-white.png",
     category: "Kids",
     description: "Colorful t-shirt designed for our youngest church members. Available in children's sizes.",
     dateAdded: "2024-03-05",
@@ -46,7 +46,7 @@ const newArrivals = [
     id: 15,
     name: "Praise & Worship Songbook",
     price: 19.99,
-    image: "/placeholder.svg?text=songbook&height=300&width=300",
+    image: "/images/products/journal.png",
     category: "Books",
     description:
       "Collection of worship songs with sheet music and chord charts. Perfect for musicians and worship teams.",
@@ -57,7 +57,7 @@ const newArrivals = [
     id: 16,
     name: "Scripture Art Print Set",
     price: 29.99,
-    image: "/placeholder.svg?text=art_prints&height=300&width=300",
+    image: "/images/products/poster-scripture.png",
     category: "Posters",
     description: "Set of three art prints featuring beautiful typography of favorite scripture verses.",
     dateAdded: "2024-02-28",
@@ -67,7 +67,7 @@ const newArrivals = [
     id: 17,
     name: "Olivet Logo Mug",
     price: 14.99,
-    image: "/placeholder.svg?text=mug&height=300&width=300",
+    image: "/images/products/water-bottle.png",
     category: "Accessories",
     description: "Ceramic mug with the Olivet Church logo. Dishwasher and microwave safe.",
     dateAdded: "2024-02-25",
@@ -199,4 +199,3 @@ export default function NewArrivalsSlider() {
     </div>
   )
 }
-

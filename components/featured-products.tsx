@@ -14,7 +14,7 @@ const featuredProducts = [
     id: 1,
     name: "Olivet Logo T-Shirt",
     price: 24.99,
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/images/products/tshirt-white.png",
     category: "Shirts",
     description: "Classic t-shirt with the Olivet Church logo.",
     sizes: ["S", "M", "L", "XL"],
@@ -24,7 +24,7 @@ const featuredProducts = [
     id: 2,
     name: "Ablaze 2024 Cap",
     price: 19.99,
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/images/products/cap-black.png",
     category: "Caps",
     isNew: true,
     description: "Official cap from the Ablaze 2024 youth program.",
@@ -35,7 +35,7 @@ const featuredProducts = [
     id: 3,
     name: "Worship CD Collection",
     price: 14.99,
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/images/products/cd-worship.png",
     category: "CDs",
     description: "A collection of worship songs from Olivet Church.",
     sizes: ["Standard"],
@@ -45,7 +45,7 @@ const featuredProducts = [
     id: 4,
     name: "Scripture Poster",
     price: 9.99,
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/images/products/poster-scripture.png",
     category: "Posters",
     description: "Inspirational scripture poster for your home or office.",
     sizes: ["18x24", "24x36"],
@@ -112,4 +112,3 @@ export default function FeaturedProducts() {
     </div>
   )
 }
-

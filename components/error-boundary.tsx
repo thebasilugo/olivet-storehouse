@@ -54,4 +54,3 @@ export default function ErrorBoundary({ children, fallback }: ErrorBoundaryProps
 
   return <>{children}</>
 }
-
